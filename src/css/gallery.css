@@ -49,8 +49,7 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn:hover,
-.load-btn:hover {
+.form-btn:hover {
   background-color: #6c8cff;
 }
 
@@ -61,7 +60,6 @@
   flex-wrap: wrap;
   gap: 70px 24px;
   justify-content: center;
-  margin-bottom: 70px;
 }
 
 .gallery-item {
@@ -101,27 +99,3 @@ b {
 .info-item-current {
   text-align: center;
 }
-
-.load-btn {
-  display: block;
-  margin: 0 auto;
-  border-radius: 8px;
-  border: none;
-  padding: 8px 16px;
-  width: 125px;
-  height: 46px;
-  background-color: #4e75ff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-
-  /* line-height: 24px; */
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* .is-unactive {
-  display: none;
-} */
